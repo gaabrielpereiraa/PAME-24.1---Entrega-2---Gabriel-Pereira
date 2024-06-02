@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+#titulo{
+    color:white;   
+    font-size: xx-large;
+    margin-left: 2vw;
+}
+
+#subtitle{
+    color:coral;
+    font-size:x-large;
+    margin-left: 33vw;
+}
+
+#logo_fluxo{
+    height: 90px;
+    width: 90px;
+    margin-left: 20vw;
+}
+
+#tela{
+    height: 90vh;
+    width: 100vw;
+    background-image: url('Imagens/Foto_Fluxo.png');
+}
+
+#precapa{
+    filter: grayscale(0%)
+}
+
