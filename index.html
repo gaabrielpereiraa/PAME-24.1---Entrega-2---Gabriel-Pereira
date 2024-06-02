@@ -13,17 +13,36 @@
         <div id="subtitle">It's happening now!</div>
     </div>
     <div id="tela"> 
-        <img id="precapa" src="Imagens/Pré-Capa.png">
-        <form id="formulario"> Email:
-            <label class="pergunta">
-                <input class="caixaPergunta">
-            </label>
-
-            <label class="pergunta">Senha:
-                <input class="caixaPergunta">
-            </label>
-            <button id="botaoLogin">Entrar</button>
-        </form>
+        <div id="left">
+            <div id="texto1"><b>Faça seu login!</b></div>
+            <img id="precapa" src="Imagens/Pré-Capa.png">
+        </div>
+        <div id="right">
+            <form id="formulario">
+                <label class="pergunta">Email
+                    <input class="caixaPergunta" type="text" placeholder="Digite seu email">
+                </label>
+                <div style="display:flex;">
+                    <label class="pergunta" style="margin-top: 3vh;">Senha 
+                        <input class="caixaPergunta" type="password" placeholder="Digite sua senha">
+                    </label>
+                    <div id="e_senha"><b>Esqueceu sua senha?</b></div>
+                </div>
+                <div id="lembrar">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    Lembrar-se de mim
+                </div>
+                <input id="botaologin" type="submit" value="Entrar">
+            </form>
+            <div id="altlogin">
+                <button onclick="location.href='http://www.google.com'" type="button" class="altbutton"><img src="Imagens/logoGoogle.png" class="imgbutton">Entrar com o Google</button>
+                <button onclick="location.href='http://www.apple.com'" type="button" class="altbutton"><img src="Imagens/logoApple.png" class="imgbutton">Entrar com Apple</button>
+            </div>
+        </div>
     </div>
+    <div id="rodape">Sobre&emsp;•&emsp;Central de Ajuda&emsp;•&emsp;Termos de serviço&emsp;•&emsp;Política de privacidade&emsp;•&emsp;Acessibilidade&emsp;•&emsp;Política de cookies</div>
 </body>
 </html>
