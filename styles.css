@@ -18,14 +18,14 @@ body{
 }
 
 #subtitle{
-    color:coral;
+    color:#F58338;
     font-size:x-large;
     margin-left: 34.5vw;
 }
 
 #logo_fluxo{
-    height: 90px;
-    width: 90px;
+    height: 10vh;
+    width: 10vh;
     margin-left: 20vw;
 }
 
@@ -102,7 +102,7 @@ body{
 #botaologin{
     height: 6.5vh;
     width: 20vw;
-    background-color: coral;
+    background-color: #F58338;
     color: white;
     border-radius: 20px;
     outline: 0px;
@@ -114,11 +114,12 @@ body{
 
 #lembrar{
     display: flex;
-    color: coral;
-    font-size: large;
+    color: #F58338;
+    font-size: 1vw;
     text-indent: 1vw;
     align-items: center;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
+    text-align: center;
 }
 
 .switch {
@@ -160,11 +161,11 @@ body{
   }
   
   input:checked + .slider {
-    background-color: coral;
+    background-color: #F58338;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px coral;
+    box-shadow: 0 0 1px #F58338;
   }
   
   input:checked + .slider:before {
@@ -183,20 +184,20 @@ body{
 
 #altlogin{
     display: flex;
-    gap: 10px;
+    gap: 1vw;
 }
 
 .altbutton{
     height: 5vh;
     width: 9.8vw;
-    border-radius: 35px;
+    border-radius: 35vw;
     text-align: center;
     justify-content: center;
     margin-top: 4vh;
     outline: 0px;
     padding: 0;
     border: none;
-    line-height: 4.5vh;
+    line-height: 4.4vh;
 }
 
 .imgbutton{
@@ -209,11 +210,11 @@ body{
 
 #e_senha{
     position: absolute;
-    color: coral;
+    color: #F58338;
     text-decoration: none;
-    font-size: large;
+    font-size: 1vw;
     margin-left: 10vw;
-    margin-top: 3.3vh;
+    margin-top: 3.15vh;
 }
 
 #rodape{
