@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social Fluxo</title>
     <link href="styles.css" rel="stylesheet">
+    <script>
+        function show_info(){
+            let email = document.querySelector('#email').value;
+            let senha = document.querySelector('#senha').value;
+            alert("Email: " + email + "\nSenha: " + senha);
+        }
+    </script>
 </head>
 <body>
     <div id="header">
@@ -20,11 +27,11 @@
         <div id="right">
             <form id="formulario">
                 <label class="pergunta">Email
-                    <input class="caixaPergunta" type="text" placeholder="Digite seu email">
+                    <input class="caixaPergunta" type="text" placeholder="Digite seu email" id="email">
                 </label>
                 <div style="display:flex;">
                     <label class="pergunta" style="margin-top: 3vh;">Senha 
-                        <input class="caixaPergunta" type="password" placeholder="Digite sua senha">
+                        <input class="caixaPergunta" type="password" placeholder="Digite sua senha" id="senha">
                     </label>
                     <div id="e_senha"><b>Esqueceu sua senha?</b></div>
                 </div>
@@ -35,7 +42,7 @@
                     </label>
                     Lembrar-se de mim
                 </div>
-                <input id="botaologin" type="submit" value="Entrar">
+                <input id="botaologin" type="submit" value="Entrar" onclick="show_info()">
             </form>
             <div id="altlogin">
                 <button onclick="location.href='http://www.google.com'" type="button" class="altbutton"><img src="Imagens/logoGoogle.png" class="imgbutton">Entrar com o Google</button>
